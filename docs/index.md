@@ -1,6 +1,8 @@
 # Welcome to MkDocs
 
 cy的知识库
+建一个链接
+[[文档1]]
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
