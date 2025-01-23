@@ -3,6 +3,7 @@
 cy的知识库
 建一个链接
 [[文档1]]
+[ddd](文档1.md)
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
