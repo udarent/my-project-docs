@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+
+  <script>
+    var language = "{{ i18n_page_file_locale }}";
+    if (language === "None") {
+      language = "zh";
+    }
+    var prefix = "";
+    var suffix = "";
+    if (language === "zh") {
+      prefix = "图 ";
+      suffix = "：";
+    } else {
+      // en
+      prefix = "Figure ";
+      suffix = ": ";
+    }
+    /* prepend the counter to the figcaption content */
+    var styles = `figure figcaption:before { content: "${prefix}" counter(figureCounter) "${suffix}" }`;
+
+    var styleSheet = document.createElement("style")
+    styleSheet.innerText = styles
+    document.head.appendChild(styleSheet)
+  </script>
+{% endblock %}
+
+

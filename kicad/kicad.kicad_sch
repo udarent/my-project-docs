@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 5861ef52-8816-4dbf-b79a-8738bf9b392b)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 27.94 54.61) (size 24.13 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 0a9abc51-b1a9-45bb-8990-29952e16d3c8)
+    (property "Sheetname" "SDRAM" (at 27.94 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sdram.kicad_sch" (at 27.94 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kicad"
+        (path "/5861ef52-8816-4dbf-b79a-8738bf9b392b" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 27.94 71.12) (size 24.13 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 58ad3237-bdb3-4b69-8b72-119554405d74)
+    (property "Sheetname" "SRAM" (at 27.94 70.4084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sram.kicad_sch" (at 27.94 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kicad"
+        (path "/5861ef52-8816-4dbf-b79a-8738bf9b392b" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 27.94 24.13) (size 24.13 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid a315dcec-09a3-4029-8b67-03ab6e98f105)
+    (property "Sheetname" "SRAM Width Concat" (at 27.94 23.4184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sram_width_concat.kicad_sch" (at 27.94 33.6046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kicad"
+        (path "/5861ef52-8816-4dbf-b79a-8738bf9b392b" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 27.94 39.37) (size 24.13 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid ed260ee6-0e0e-4dd0-8751-03f1c78ba3c3)
+    (property "Sheetname" "SRAM Depth Concat" (at 27.94 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sram_depth_concat.kicad_sch" (at 27.94 48.8446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kicad"
+        (path "/5861ef52-8816-4dbf-b79a-8738bf9b392b" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
